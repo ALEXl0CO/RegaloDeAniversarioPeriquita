@@ -2,6 +2,69 @@ h1 {
     font-size: 40px;
 }
 
+.titulo_mates {
+    color: #d9534f;
+}
+
 p {
     font-size: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    margin: 30px;
+}
+
+.operaciones-container {
+    margin-top: 30px;
+}
+
+.respuestaInput {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #428bca;
+    color: #fff;
+    border: 1px solid #357ebd;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3071a9;
+}
+
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.respuestaInput:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+}
+
+span {
+    font-size: 25px;
+    color: #555;
+    font-style: italic;
+}
+
+.numeroEspecial {
+    font-size: inherit;
+    color: #007acc;
+    font-weight: bold;
+    font-style: normal;
 }
