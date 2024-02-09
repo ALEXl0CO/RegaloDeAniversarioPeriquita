@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        resultadoContainer.innerHTML = `<p>A ver cuántas tienes bien... ${respuestasCorrectas} de ${operaciones.length}, bueno`;
+        resultadoContainer.innerHTML = `<p>A ver cuántas tienes bien... ${respuestasCorrectas} de ${operaciones.length}, bueno, esto era muy sencillito`;
 
         if (respuestasCorrectas === operaciones.length) {
             resultadoContainer.innerHTML += `<span class="numeroEspecial">3</span>`;
