@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (resultadoUsuario === "2049") {
             // Si el resultado es correcto
-            resultadoContainer.innerHTML += `<p class="resultadoText">Ha costado ehhhhh, muy bien churri!!!!<span class="numeroEspecial">1</span></p>`;
+            resultadoContainer.innerHTML = `<p class="resultadoText">Ha costado ehhhhh, muy bien churri!!!!</p>`;
+            resultadoContainer.innerHTML += `<span class="numeroEspecial">1</span>`;
 
             // Muestra el botón para avanzar
             var avanzarBtn = document.createElement("button");
