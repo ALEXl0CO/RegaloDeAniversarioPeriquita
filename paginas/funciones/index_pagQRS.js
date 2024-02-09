@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             avanzarBtn.id = "avanzarBtn";
             avanzarBtn.textContent = "Avanzar";
             avanzarBtn.addEventListener("click", function() {
-                window.location.href = "pag_Carta.html";
+                window.location.href = "pagCarta.html";
             });
             resultadoContainer.appendChild(avanzarBtn);
         } else {
