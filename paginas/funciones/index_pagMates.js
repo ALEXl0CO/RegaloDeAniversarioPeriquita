@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
         resultadoContainer.innerHTML = `<p>A ver cuántas tienes bien... ${respuestasCorrectas} de ${operaciones.length}, bueno`;
 
         if (respuestasCorrectas === operaciones.length) {
-            resultadoContainer.innerHTML += `... <span class="numeroEspecial">${operaciones.length}</span>`;
+            resultadoContainer.innerHTML += `<span class="numeroEspecial">3</span>`;
             
             // Redirige a la página pagQRS.html después de 3 segundos
             setTimeout(function() {
