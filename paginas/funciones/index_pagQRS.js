@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var resultadoUsuario = numeroUsuarioInput.value.trim();
 
         if (resultadoUsuario === "2049") {
-            // Si el resultado es correcto
+            // Si el resultado es correctoo
             resultadoContainer.innerHTML = `<p class="resultadoText">Ha costado ehhhhh, muy bien churri!!!!!<span class="numeroEspecial">1</span></p>`;
 
             // Muestra el botón para avanzar
