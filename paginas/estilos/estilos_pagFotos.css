@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+}
+
+/* Estilo para las imágenes */
+.dynamic-image {
+    width: 300px; /* Establece el ancho deseado para las imágenes */
+    height: 400px; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* Mantiene la proporción y recorta para ajustarse al contenedor */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para las imágenes en dispositivos con ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    th, td {
+        padding: 5px;
+    }
+}
